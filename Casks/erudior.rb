@@ -6,8 +6,9 @@ cask "erudior" do
       verified: "github.com/Aziliz/examiner/"
   name "Erudior"
   desc "Free courses, practice exams and homeschool records"
-  homepage "https://app.erudior.com/"
+  homepage "https://erudior.com/"
 
+  auto_updates true
   depends_on macos: ">= :catalina"
 
   app "Erudior.app"
